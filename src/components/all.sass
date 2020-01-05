@@ -1,7 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-$background: $black
-
 // Config vars
 // Kaldi logo brand color: #FD461E
 // $kaldi-red: #D64000
@@ -11,25 +9,27 @@ $background: $black
 // $body-color: #333
 // $black: #2b2523
 
-$kaldi-red: white
+// https://bulma.io/documentation/components/navbar/#colors
+// $danger: #ff6b4a
+$danger: #ff4d4a
+// $danger: #ff6b4a
+// Lineto Akkurat Regular,sans-serif;
+// $nav-text-col: #000000
+  // https://bulma.io/documentation/customize/variables/#generic-variables
+$body-background-color: black//This does same as background-color: $black
+
+
+
 $kaldi-red-invert: #000000
-$primary: white
-$primary-invert: $kaldi-red-invert
-// $body-color: black
-// $black: #2b2523
-
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
-$background: $white-ter
-
-body
-  background-color: $black
+$primary: black
+// $navbar-item-color: black
 
 .navbar .navbar-menu
   box-shadow:none !important
 
 .content .taglist
-  background-color: $black
+  // text-decoration: none
+  // background-color: $black
   list-style: none
   margin-bottom: 0
   margin-left: 0
@@ -46,6 +46,7 @@ body
 
 // Helper Classes
 .full-width-image-container
+  // text-decoration: none
   width: 100vw
   height: 400px
   position: relative
@@ -88,7 +89,9 @@ body
   margin-top: 0 !important
 
 .navbar-item .icon
+  // has-text-white
   color: $primary
+  // color: $navbar-item-color
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -98,10 +101,13 @@ body
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
+  // background-color: $danger
+  // background-color: transparent
 
 //Menu overrides
 $menu-item-color: $white-ter
+// $menu-item-color: black
+
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
 $menu-item-active-color: $kaldi-red-invert
@@ -121,7 +127,7 @@ $menu-label-color: $white-ter
 .social a
     padding: .5em .5em .3em .5em
     border-radius: 1em
-    background-color: $white-ter
+    // background-color: $white-ter
     margin: .5em
     width: 1em
     height: 1em
@@ -130,11 +136,14 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #ff7a4a;
+  // text-decoration: none
 .blog-list-item header
+  // text-decoration: none
   display: flex;
   margin-bottom: 1em;
 .blog-list-item .featured-thumbnail
+  // text-decoration: none
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
@@ -151,6 +160,7 @@ $menu-label-color: $white-ter
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
+    // text-decoration: none
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
