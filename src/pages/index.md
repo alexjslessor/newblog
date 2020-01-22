@@ -6,10 +6,11 @@ heading: Data Analysis and Digital Forensic Analysis
 subheading: Never wonder what's actually happening ever again.
 mainpitch:
   title: Welcome to SkyStone
-  description: >
+  description: |
     We provide data analytics services to small and medium sized businesses.
 description: >-
-  If you need custom data analytics tailored to your specific business needs you have come to the right place.
+  If you need custom data analytics tailored to your specific business needs you
+  have come to the right place.
 intro:
   blurbs:
     - image: /img/mars_factory_day.jpg
@@ -40,11 +41,8 @@ intro:
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
   heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  description: |
+    Kaldi is the ultimate spot for coffee lovers who want to learn 
 main:
   heading: Great coffee with no compromises
   description: >
@@ -62,3 +60,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
