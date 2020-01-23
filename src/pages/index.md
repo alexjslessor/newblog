@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: SkyStone Intelligence
-image: /img/2.jpg
+image: /img/unsplash-mountains-night.jpg
 heading: Data Analysis and Digital Forensic Analysis
 subheading: Never wonder what's actually happening ever again.
 mainpitch:
